@@ -14,8 +14,8 @@ class UserTableSeeder extends Seeder
         DB::table('users')->insert([
             [
                 'name' => 'admin',
-                'email' => '1606020@sttgarut.ac.id',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',
+                'email' => 'admin@mail.com',
+                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',//password
                 'role' => 'admin',
                 'tempat_lahir'=>'garut',
                 'tanggal_lahir'=>'2020-06-09 ',
